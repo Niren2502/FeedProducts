@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FeedProducts": {
+      "commandName": "Project",
+      "commandLineArgs": "feed-products\\capterra.yaml"
+    }
+  }
+}
