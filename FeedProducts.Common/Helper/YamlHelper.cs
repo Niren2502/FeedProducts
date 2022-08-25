@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using YamlDotNet.Serialization.NamingConventions;
 
 namespace FeedProducts.Common.Helper
@@ -7,8 +8,16 @@ namespace FeedProducts.Common.Helper
     /// Yaml helper
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class YamlHelper<T>
+    [ExcludeFromCodeCoverage]
+    public class YamlHelper<T> : IYamlHelper<T>
     {
+        public readonly IFileHelper _fileHelper;
+
+        public YamlHelper(IFileHelper fileHelper)
+        {
+            _fileHelper = fileHelper;
+        }
+
         /// <summary>
         /// Get deserialized entries for a specific type present in yaml
         /// </summary>
@@ -20,7 +29,7 @@ namespace FeedProducts.Common.Helper
             .WithNamingConvention(CamelCaseNamingConvention.Instance)
             .Build();
 
-            return deserializer.Deserialize<List<T>>(FileHelper.ReadFileData(path));
+            return deserializer.Deserialize<List<T>>(_fileHelper.ReadFileData(path));
         }
     }
 }

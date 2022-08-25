@@ -2,17 +2,35 @@
 
 namespace FeedProducts.Models
 {
-    public class Products
+    /// <summary>
+    ///  Products class
+    /// </summary>
+    public class ProductsList
     {
-        public List<Product> products { get; set; }
+        /// <summary>
+        /// products list
+        /// </summary>
+        public List<Product> Products { get; set; }
     }
 
+    /// <summary>
+    /// Product class
+    /// </summary>
     public class Product
     {
-        public string title { get; set; }
+        /// <summary>
+        /// Title
+        /// </summary>
+        public string Title { get; set; }
 
-        public string twitter { get; set; }
+        /// <summary>
+        /// Twitter
+        /// </summary>
+        public string Twitter { get; set; }
 
-        public List<string> categories { get; set; }
+        /// <summary>
+        /// Categories
+        /// </summary>
+        public List<string> Categories { get; set; }
     }
 }

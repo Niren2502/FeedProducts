@@ -8,3 +8,13 @@ C:\Users\nbhardwaj\source\repos\FeedProducts\FeedProducts.Common\obj\Debug\netco
 C:\Users\nbhardwaj\source\repos\FeedProducts\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.csproj.CoreCompileInputs.cache
 C:\Users\nbhardwaj\source\repos\FeedProducts\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.dll
 C:\Users\nbhardwaj\source\repos\FeedProducts\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.pdb
+D:\Assignment\FeedProducts.Common\bin\Debug\netcoreapp3.1\FeedProducts.Common.deps.json
+D:\Assignment\FeedProducts.Common\bin\Debug\netcoreapp3.1\FeedProducts.Common.dll
+D:\Assignment\FeedProducts.Common\bin\Debug\netcoreapp3.1\FeedProducts.Common.pdb
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.AssemblyInfoInputs.cache
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.AssemblyInfo.cs
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.csproj.CoreCompileInputs.cache
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.dll
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.pdb
+D:\Assignment\FeedProducts.Common\obj\Debug\netcoreapp3.1\FeedProducts.Common.csproj.AssemblyReference.cache

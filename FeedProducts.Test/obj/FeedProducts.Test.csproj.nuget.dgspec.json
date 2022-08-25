@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Test\\FeedProducts.Test.csproj": {}
+    "D:\\Assignment\\FeedProducts.Test\\FeedProducts.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj": {
+    "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj",
+        "projectUniqueName": "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj",
         "projectName": "FeedProducts.Common",
-        "projectPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj",
+        "projectPath": "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj",
         "packagesPath": "C:\\Users\\nbhardwaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\obj\\",
+        "outputPath": "D:\\Assignment\\FeedProducts.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Test\\FeedProducts.Test.csproj": {
+    "D:\\Assignment\\FeedProducts.Test\\FeedProducts.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Test\\FeedProducts.Test.csproj",
+        "projectUniqueName": "D:\\Assignment\\FeedProducts.Test\\FeedProducts.Test.csproj",
         "projectName": "FeedProducts.Test",
-        "projectPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Test\\FeedProducts.Test.csproj",
+        "projectPath": "D:\\Assignment\\FeedProducts.Test\\FeedProducts.Test.csproj",
         "packagesPath": "C:\\Users\\nbhardwaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Test\\obj\\",
+        "outputPath": "D:\\Assignment\\FeedProducts.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -96,8 +96,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts\\FeedProducts.csproj": {
-                "projectPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts\\FeedProducts.csproj"
+              "D:\\Assignment\\FeedProducts\\FeedProducts.csproj": {
+                "projectPath": "D:\\Assignment\\FeedProducts\\FeedProducts.csproj"
               }
             }
           }
@@ -115,6 +115,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -152,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts\\FeedProducts.csproj": {
+    "D:\\Assignment\\FeedProducts\\FeedProducts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts\\FeedProducts.csproj",
+        "projectUniqueName": "D:\\Assignment\\FeedProducts\\FeedProducts.csproj",
         "projectName": "FeedProducts",
-        "projectPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts\\FeedProducts.csproj",
+        "projectPath": "D:\\Assignment\\FeedProducts\\FeedProducts.csproj",
         "packagesPath": "C:\\Users\\nbhardwaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts\\obj\\",
+        "outputPath": "D:\\Assignment\\FeedProducts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -180,8 +184,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj": {
-                "projectPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj"
+              "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj": {
+                "projectPath": "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj"
               }
             }
           }

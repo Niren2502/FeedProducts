@@ -6,17 +6,26 @@ using System;
 
 namespace FeedProducts.FileReader
 {
+    /// <summary>
+    /// Software advice reader
+    /// </summary>
     public class SoftwareAdviceReader : IFileReader
     {
+        private readonly IFileHelper _fileHelper;
+
+        public SoftwareAdviceReader(IFileHelper fileHelper)
+        {
+            _fileHelper = fileHelper;
+        }
+
         /// <summary>
         /// Read file
         /// </summary>
         public void ReadFile(string path)
         {
-            Products products = JsonConvert.DeserializeObject<Products>(FileHelper.ReadFileData(path));
+            ProductsList products = JsonConvert.DeserializeObject<ProductsList>(_fileHelper.ReadFileData(path));
 
-            products.products.ForEach(x => Console.WriteLine($"Name: {x.title}, Categories: {string.Join(", ", x.categories)}, Twitter: {x.twitter}"));
-            Console.ReadLine();
+            products.Products.ForEach(x => Console.WriteLine($"Name: {x.Title}, Categories: {string.Join(", ", x.Categories)}, Twitter: {x.Twitter}"));
         }
     }
 }

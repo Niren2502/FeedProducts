@@ -13,6 +13,11 @@ namespace FeedProducts.FileReader
             _serviceProvider = serviceProvider;
         }
 
+        /// <summary>
+        ///  get file reader object
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public IFileReader GetFileReader(string path)
         {
             var extension = Path.GetExtension(path);

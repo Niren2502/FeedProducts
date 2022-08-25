@@ -1,9 +1,23 @@
 ﻿namespace FeedProducts.Models
 {
+    /// <summary>
+    /// Capterra model
+    /// </summary>
     public class Capterra
     {
-        public string tags { get; set; }
-        public string name { get; set; }
-        public string twitter { get; set; }
+        /// <summary>
+        /// Tags
+        /// </summary>
+        public string Tags { get; set; }
+
+        /// <summary>
+        /// Name
+        /// </summary>
+        public string Name { get; set; }
+
+        /// <summary>
+        /// Twitter
+        /// </summary>
+        public string Twitter { get; set; }
     }
 }

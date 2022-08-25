@@ -11,15 +11,20 @@ namespace FeedProducts.FileReader
     /// </summary>
     public class CapterraYamlReader : IFileReader
     {
+        private readonly IYamlHelper<Capterra> _yamlHelper;
+
+        public CapterraYamlReader(IYamlHelper<Capterra> yamlHelper)
+        {
+            _yamlHelper = yamlHelper;
+        }
+
         /// <summary>
         /// Read file
         /// </summary>
         public void ReadFile(string path)
         {
-            YamlHelper<Capterra> yamlHelper = new YamlHelper<Capterra>();
-            List<Capterra> entries = yamlHelper.GetEntries(path);
-            entries.ForEach(x => Console.WriteLine($"Name: {x.name}, Tags: {x.tags}, Twitter: {x.twitter}"));
-            Console.ReadLine();
+            List<Capterra> entries = _yamlHelper.GetEntries(path);
+            entries.ForEach(x => Console.WriteLine($"Name: {x.Name}, Tags: {x.Tags}, Twitter: {x.Twitter}"));
         }
     }
 }

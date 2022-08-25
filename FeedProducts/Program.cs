@@ -1,13 +1,17 @@
-﻿using FeedProducts.FileReader;
+﻿using FeedProducts.Common.Helper;
+using FeedProducts.FileReader;
 using FeedProducts.Interfaces;
+using FeedProducts.Models;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
 namespace FeedProducts
 {
     /// <summary>
     /// Program class
     /// </summary>
+    [ExcludeFromCodeCoverage]
     public static class Program
     {
         public static void Main(string[] args)
@@ -19,6 +23,8 @@ namespace FeedProducts
                 .AddScoped<IFileReader, CapterraYamlReader>(s => s.GetService<CapterraYamlReader>())
                 .AddScoped<SoftwareAdviceReader>()
                 .AddScoped<IFileReader, SoftwareAdviceReader>(s => s.GetService<SoftwareAdviceReader>())
+                .AddScoped<IYamlHelper<Capterra>, YamlHelper<Capterra>>()
+                .AddScoped<IFileHelper, FileHelper>()
                 .BuildServiceProvider();
 
             var service = serviceProvider.GetService<IFileFactory>();
@@ -33,6 +39,7 @@ namespace FeedProducts
             {
                 Console.WriteLine("No file path supported");
             }
+            Console.ReadLine();
         }
     }
 }

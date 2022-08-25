@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 
 namespace FeedProducts.Common.Helper
@@ -6,9 +7,10 @@ namespace FeedProducts.Common.Helper
     /// <summary>
     /// Helper class for file related method
     /// </summary>
-    public static class FileHelper
+    [ExcludeFromCodeCoverage]
+    public class FileHelper : IFileHelper
     {
-        public static string ReadFileData(string path)
+        public string ReadFileData(string path)
         {
             return File.ReadAllText(Environment.CurrentDirectory + "\\" + path);
         }

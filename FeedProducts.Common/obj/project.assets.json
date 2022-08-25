@@ -52,11 +52,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj",
+      "projectUniqueName": "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj",
       "projectName": "FeedProducts.Common",
-      "projectPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\FeedProducts.Common.csproj",
+      "projectPath": "D:\\Assignment\\FeedProducts.Common\\FeedProducts.Common.csproj",
       "packagesPath": "C:\\Users\\nbhardwaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nbhardwaj\\source\\repos\\FeedProducts\\FeedProducts.Common\\obj\\",
+      "outputPath": "D:\\Assignment\\FeedProducts.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
